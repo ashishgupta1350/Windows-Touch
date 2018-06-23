@@ -1,8 +1,8 @@
-# Project Sistine
+# Project Windows-Touch
 
 ![Sistine * 3/2](splash.png)
 
-We turned a MacBook into a touchscreen using only $1 of hardware and a little bit of computer vision. The proof-of-concept, dubbed “Project Sistine” after our [recreation](https://www.anishathalye.com/media/2018/04/03/thumbnail.jpg) of the famous [painting](https://en.wikipedia.org/wiki/The_Creation_of_Adam) in the Sistine Chapel, was prototyped by [Anish Athalye](https://www.anishathalye.com/), [Kevin Kwok](https://twitter.com/antimatter15), [Guillermo Webster](https://twitter.com/biject), and [Logan Engstrom](https://github.com/lengstrom) in about 16 hours.
+I turned a Windows-PC into a touchscreen using only $0.3 or Rs 20 of hardware and a little bit of computer vision. The proof-of-concept, dubbed “Project Sistine” after our [recreation](https://www.anishathalye.com/media/2018/04/03/thumbnail.jpg) of the famous [painting](https://en.wikipedia.org/wiki/The_Creation_of_Adam) in the Sistine Chapel, was prototyped by [Anish Athalye](https://www.anishathalye.com/), [Kevin Kwok](https://twitter.com/antimatter15), [Guillermo Webster](https://twitter.com/biject), and [Logan Engstrom](https://github.com/lengstrom) in about 16 hours. Then it was mordified by Ashish Gupta.
 
 ## Basic Principle
 
@@ -14,16 +14,19 @@ Kevin, back in middle school, noticed this phenomenon and built [ShinyTouch](htt
 
 (Read the rest of our blog post, including a video demo and a high-level explanation of the algorithm, [here](https://www.anishathalye.com/2018/04/03/macbook-touchscreen/))
 
-## Installation (with Homebrew Python)
+## Installation (with pip Python)
 
 * First, make sure you have [Mac Homebrew](https://brew.sh/) installed on your computer. If not, you can install it by running `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-* Install Python 2 via Homebrew with `brew install python2`
+* Install Python 3 via webisite https://www.python.org/download/releases/3.0/
 
-* Install OpenCV 3 via Homebrew with `brew install opencv3`
+* Install OpenCV 3 via Homebrew with 'pip install opencv-python'
 
-* Install PyObjC via Pip with `pip2 install pyobjc`
+* Install pyautogui via Pip with `pip install pyautogui`
+
+* Install Numpy via Pip with 'pip install numpy'
+
 
 ## Running
 
-Run `python2 sistine.py`
+Run `python WindowsTouch.py` via cmd or compile using python3. Don't forget to add python 3 to path. Also supports Python 2.
