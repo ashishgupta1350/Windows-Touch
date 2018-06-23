@@ -12,7 +12,7 @@ The basic principle behind Sistine is simple. Surfaces viewed from an angle tend
 
 Kevin, back in middle school, noticed this phenomenon and built [ShinyTouch](https://antimatter15.com/project/shinytouch/), utilizing an external webcam to build a touch input system requiring virtually no setup. We wanted to see if we could miniaturize the idea and make it work without an external webcam. Our idea was to retrofit a small mirror in front of a MacBook’s built-in webcam, so that the webcam would be looking down at the computer screen at a sharp angle. The camera would be able to see fingers hovering over or touching the screen, and we’d be able to translate the video feed into touch events using computer vision.
 
-(Read the rest of our blog post, including a video demo and a high-level explanation of the algorithm, [here]
+(Read the rest of our blog post, including a video demo and a high-level explanation of the algorithm, (https://www.anishathalye.com/2018/04/03/macbook-touchscreen/)
 
 ## Installation (with pip Python)
 
