@@ -33,3 +33,5 @@ Download Python 3 and then pip.
 
 Run `python WindowsTouch.py` via cmd or compile using python3. Don't forget to add python 3 to path. 
 Python 2 is supported.
+
+Gotcha!!
